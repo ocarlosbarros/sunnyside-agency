@@ -1,18 +1,67 @@
-:root {
-  --soft-red: hsl(7, 99%, 70%);
-  --custom-yellow: hsl(51, 100%, 49%);
-  --dark-desaturated-cyan: hsl(167, 40%, 24%);
-  --dark-blue:hsl(198, 62%, 26%);
-  --dark-moderate-cyan: hsl(168, 34%, 41%);
-}
-
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  font-family: "Barlow", "Fraunces";
 }
 
 body {
-  color: var(--dark-desaturated-cyan);
+  color: hsl(167, 40%, 24%);
   font-size: 18px;
+}
+
+header {
+  background: url("../imgs/image-header.jpg") no-repeat;
+  background-size: cover;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 2em;
+}
+
+.container-logo-menu {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  height: 120px;
+}
+
+.slogan {
+  text-align: center;
+  font-size: 5em;
+  font-family: "Fraunces";
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 2;
+  height: 120px;
+}
+
+nav ul {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+nav ul a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+footer {
+  height: 350px;
+  width: 100%;
+  background: hsl(168, 34%, 41%);
 }/*# sourceMappingURL=Layout.css.map */
