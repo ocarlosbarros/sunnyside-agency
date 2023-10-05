@@ -14,6 +14,6 @@ $grayish-blue: hsl(210, 4%, 67%);
 }
 
 body{
-    color: var(--dark-desaturated-cyan);
+    color: $dark-desaturated-cyan;
     font-size: 18px;
 }
