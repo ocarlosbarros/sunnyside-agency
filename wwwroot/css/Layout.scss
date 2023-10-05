@@ -17,3 +17,54 @@ body{
     color: $dark-desaturated-cyan;
     font-size: 18px;
 }
+header{
+    background: url("../imgs/image-header.jpg") no-repeat;
+    background-size: cover;
+    color: #FFF;
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 2em;
+}
+
+.container-logo-menu {
+    display: flex;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    height: 120px;
+}
+
+.slogan{
+    text-align: center;
+    font-size: 5em;
+    font-family: "Fraunces";
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 2;
+    height: 120px;
+    
+}
+
+nav ul{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+nav ul a{
+    color: #FFF;
+    text-decoration: none;
+}
