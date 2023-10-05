@@ -66,3 +66,9 @@ artifacts/
 *.user
 *.suo
 *.userprefs
+
+# Sass files
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
