@@ -15,7 +15,6 @@ header {
   color: #FFF;
   display: flex;
   flex-direction: column;
-  height: 100vh;
   padding: 2em;
 }
 
@@ -75,6 +74,10 @@ footer {
   align-items: center;
   justify-content: center;
   height: 120px;
+}
+
+.session {
+  height: 100vh;
 }
 
 footer nav {
