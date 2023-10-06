@@ -1,6 +1,8 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: none;
   font-family: "Barlow", "Fraunces";
 }
 
@@ -20,15 +22,10 @@ header {
 
 .container-logo-menu {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   margin-bottom: 2em;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  flex-grow: 1;
-  height: 120px;
 }
 
 .slogan {
@@ -40,23 +37,76 @@ header {
 nav {
   display: flex;
   justify-content: flex-end;
-  flex-grow: 2;
-  height: 120px;
+  width: 100%;
 }
 
 nav ul {
-  width: 30%;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 1em;
   list-style-type: none;
-  font-weight: bold;
 }
 
 nav ul a {
   color: #FFF;
+  display: inline-block;
+  padding: 1em;
+  font-weight: bold;
+  margin-left: 4em;
   text-decoration: none;
+}
+
+nav ul a:hover {
+  background: white;
+  text-transform: uppercase;
+  color: black;
+  border-radius: 50px;
+}
+
+nav ul li {
+  padding: 1em;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.multiple-card {
+  display: flex;
+  width: 100%;
+}
+
+.card-description {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  width: 50%;
+}
+
+.card-image {
+  width: 50%;
+}
+
+.card-image img {
+  width: 100%;
+}
+
+.single-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  border: 1px solid black;
+}
+
+.single-card .card-image {
+  width: 100%;
+}
+
+.single-card img {
+  width: 100%;
 }
 
 footer {
@@ -77,7 +127,9 @@ footer {
 }
 
 .session {
+  width: 100vw;
   height: 100vh;
+  max-width: 100%;
 }
 
 footer nav {
