@@ -6,4 +6,14 @@
 }
 <section>
     <h2>Login</h2>
+    <form asp-page="Home" method="post">
+        <label for="email">
+            <input type="email" name="email" id="email">
+        </label>
+        <label for="password">
+            <input type="password" name="password" id="password">
+        </label>
+        <button type="submit">Login</button>
+    </form>
+    <p><a asp-page="Signup">Registrar</a></p>
 </section>

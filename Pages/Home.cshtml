@@ -1,0 +1,27 @@
+@page
+@model Home
+@{
+    ViewData["Title"] = "sunnyside";
+}
+
+<section>
+    <header class="session">
+        <div class="container-logo-menu">
+            <h1 class="logo">sunnyside</h1>
+            <partial name="NavMenuPartial" >
+        </div>
+        <h2 class="slogan">Nós somos criativos</h2>
+    </header>
+</section>
+@section projects{
+    <partial name="ProjectsPartial">
+}
+@section testimonials{
+    <partial name="TestimonialsPartial">
+}
+@section slider{
+    <partial name="SliderPartial">
+}
+@section footer{
+    <partial name="FooterPartial">
+}
