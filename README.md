@@ -1,6 +1,6 @@
 # Sunnyside Agency
 
-![Sunnyside Agency](./imgs/application.gif)
+![Sunnyside Agency](./wwwroot/imgs/application.gif)
 
 # :clipboard: Table of Contents
 
