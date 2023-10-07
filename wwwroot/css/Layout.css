@@ -3,12 +3,26 @@
   margin: 0;
   padding: 0;
   border: none;
+  font-size: 18px;
   font-family: "Barlow", "Fraunces";
+}
+
+h1 {
+  font-size: 2.5em;
+  font-family: "Fraunces";
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3, h4, h5, h6 {
+  font-size: 1.5em;
 }
 
 body {
   color: hsl(167, 40%, 24%);
-  font-size: 18px;
 }
 
 header {
@@ -143,6 +157,42 @@ nav ul li {
      object-fit: cover;
 }
 
+.testimonials {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.testimonials h3 {
+  text-align: center;
+  width: 100%;
+}
+
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  width: 450px;
+  height: 600px;
+  padding: 1.5em;
+}
+
+.testimonial-card p {
+  text-align: center;
+}
+
+.testimonial-card span {
+  font-size: 1em;
+}
+
+.testimonial-card .customer-image {
+  border-radius: 100%;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -167,7 +217,19 @@ footer {
 }
 
 .mt {
-  margin-top: 1.5em;
+  margin-top: 3em;
+}
+
+.mt-2 {
+  margin-top: 6em;
+}
+
+.mb {
+  margin-bottom: 3em;
+}
+
+.mb-2 {
+  margin-bottom: 6em;
 }
 
 footer nav {
